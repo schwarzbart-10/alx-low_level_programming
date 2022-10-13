@@ -1,11 +1,13 @@
 #include <stdio.h>
 /**
- * This is my first program using the put command
+ * main - runs all the code
  *
- * Return must be equal to 0
+ * Description: runs the put and print statement
+ * main: returns the value of the put statement
+ *Return: return 0 to the exit function
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
