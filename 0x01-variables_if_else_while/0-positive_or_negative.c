@@ -1,10 +1,10 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 /**
- * main - runs the outcome of the whole code
+ * main - runs the entire source program
  *
- * Return: return 0 to the exit function
+ * Return: returns 0 to the exit function
  */
 int main(void)
 {
@@ -25,3 +25,5 @@ int main(void)
 		printf("%d is zero\n", n);
 	return (0);
 }
+
+
