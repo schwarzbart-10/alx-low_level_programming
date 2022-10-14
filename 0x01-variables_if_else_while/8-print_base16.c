@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - runs the whole code
+ * main - runs the entire code
  *
  * Return: returns 0 to exit function
  */
@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar(number);
 	}
-	for (letter = 'a'; letter <= 'e'; letter++)
+	for (letter = 'a'; letter <= 'f'; letter++)
 	{
 		letter = tolower(letter);
 		putchar(letter);
